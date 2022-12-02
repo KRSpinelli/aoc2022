@@ -1,6 +1,6 @@
 const fs = require('fs');
 var input = "";
-fs.readFile('/Users/kyle/projects/aoc/inputs/day1.txt', 'utf8', (err, data) => {
+fs.readFile('/Users/kyle/projects/aoc2022/inputs/day1.txt', 'utf8', (err, data) => {
   if (err) {
     console.error(err);
     return;
