@@ -10,6 +10,6 @@ describe("Day1 contract", function () {
 
     const result = await day1.main("");
     
-    expect(result).to.equal(24000);
+    expect(result).to.equal((24000, 45000));
   });
 });
