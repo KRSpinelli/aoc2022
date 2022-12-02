@@ -32,19 +32,3 @@ main()
     console.error(error);
     process.exit(1);
   });
-
-// describe("Day1 contract", function () {
-//   it("Deployment should assign the total supply of tokens to the owner", async function () {
-//     const [owner] = await ethers.getSigners();
-
-//     const Day1 = await ethers.getContractFactory("Day1");
-
-//     const day1 = await Day1.deploy();
-
-//     console.log(await day1.main(input));
-
-//     const result = await day1.main("");
-//     // console.log(await day1.main(input))
-//     expect(result).to.equal(24000);
-//   });
-// });
