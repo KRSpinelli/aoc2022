@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "in_str",
+						"type": "string"
+					}
+				],
+				"name": "calculate_score",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "in_str",
+						"type": "string"
+					}
+				],
+				"name": "calculate_score_p2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "in_str",
+						"type": "string"
+					}
+				],
+				"name": "first_split",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "main",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str_1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "str_2",
+						"type": "string"
+					}
+				],
+				"name": "str_cmp",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/kyle/projects/aoc2022/contracts/Day2.sol": "Day2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/kyle/projects/aoc2022/contracts/Day2.sol": {
+			"keccak256": "0x5dfe555fcac66e7a0edf4f5d2e1901b9ff626fe70106e091a8bae0fc5bdfd1c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b542a2bfd41b573de356d244fbdadf012bfc616b7b7912fa9d616d25df44f690",
+				"dweb:/ipfs/QmcJKNhR2L4Hsf9P6sKBdcjUSggu5EqzssHhzBLk43bt8c"
+			]
+		},
+		"Users/kyle/projects/aoc2022/contracts/strings.sol": {
+			"keccak256": "0x9e064fd116cdd5ed4b0132d0606a372bd94ff243c0520bc723fb6b09e947c16e",
+			"urls": [
+				"bzz-raw://93d1a36262aa498a85ac7a275ead2cf410b9c674d6bef09d0972203cb33b724e",
+				"dweb:/ipfs/QmY9T4HKDbPXEZPHzXaFbd2M86fV1Q68sBJYh8J9LDFApU"
+			]
+		}
+	},
+	"version": 1
+}

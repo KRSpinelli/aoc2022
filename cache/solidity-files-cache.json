@@ -109,6 +109,43 @@
       "artifacts": [
         "Day2"
       ]
+    },
+    "/Users/kyle/projects/aoc2022/contracts/Day3.sol": {
+      "lastModificationDate": 1670057200862,
+      "contentHash": "6215f5455f821241bde5bd7f65a9587a",
+      "sourceName": "contracts/Day3.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./strings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "Day3"
+      ]
     }
   }
 }

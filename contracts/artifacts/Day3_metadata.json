@@ -1,0 +1,201 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "char",
+						"type": "bytes1"
+					}
+				],
+				"name": "calculate_priority",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "elf1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "elf2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "elf3",
+						"type": "string"
+					}
+				],
+				"name": "find_badge",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "find_dup",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "main",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "p1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "p2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "in_str",
+						"type": "string"
+					}
+				],
+				"name": "split_lines",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/kyle/projects/aoc2022/contracts/Day3.sol": "Day3"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/kyle/projects/aoc2022/contracts/Day3.sol": {
+			"keccak256": "0x2ca2656f097944e519a5291bacbb240dae4cf125d81bd01d24e24a1e1ee57655",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://95460d4ef8665126cbe3aa7b94b9b835eec6bec5c6a33ee71b58e7b9437e55bb",
+				"dweb:/ipfs/QmXm4es5LYvzRdannrhSShzpP6ETBug2A2si6YmXWzJwgA"
+			]
+		},
+		"Users/kyle/projects/aoc2022/contracts/strings.sol": {
+			"keccak256": "0x9e064fd116cdd5ed4b0132d0606a372bd94ff243c0520bc723fb6b09e947c16e",
+			"urls": [
+				"bzz-raw://93d1a36262aa498a85ac7a275ead2cf410b9c674d6bef09d0972203cb33b724e",
+				"dweb:/ipfs/QmY9T4HKDbPXEZPHzXaFbd2M86fV1Q68sBJYh8J9LDFApU"
+			]
+		}
+	},
+	"version": 1
+}
